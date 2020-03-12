@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+.table th, tr, td{
+	border:solid black 1px;
+	
+}
+
+ul.navbar {
+	list-style-type: none;
+}
+
+.main{
+	text-align:center;
+	background-image: url('images/syriaByTheSea.jpeg');
+	background-size:cover;
+	font-size:25px;
+	text-shadow:2px 2px lightgrey;
+	font-style:bold;
+	font-family: serif;
+	font-weight: bold;
+}
+
+.main a{
+	color: blue;
+	
+}
+
+.main a:hover{
+	color: green;
+	text-decoration:underline;
+	font-size: 27px;
+	
+}
+
+.code{
+	text-align:center;
+	background-image: url('images/code.png');
+	background-size:cover;
+	
+}
+
+.quote{
+	background-color:PaleGoldenRod;
+	color: black;
+	border: 1px solid black;
+	opacity:0.7;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:18px;
+	border-radius:25%;
+	width: 60%;
+	text-align:center;
+	
+}
+
+.q1{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.quote2{
+	background-color:midnightblue;
+	color: cyan;
+	opacity:0.7;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid cyan;
+	font-size:18px;
+	border-radius:25%;
+	width: 70%;
+	text-align:center;
+	
+}
+
+.q2{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.quote3{
+	background-color:black;
+	color: red;
+	opacity:0.7;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	border-radius:25%;
+	border: 1px solid red;
+	width: 70%;
+	text-align:center;
+	
+}
+
+.q3{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+.contact{
+	margin-left:auto;
+	margin-right:auto;
+	width: 40%;
+	background-color:PaleGoldenRod;
+	opacity:0.7;
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.pad{
+	padding:110px;
+	
+}
+
+.pad2{
+	padding:10px;
+	
+}
+
+
+.container{
+	background-color:PaleGoldenRod;
+	opacity: 0.7;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:22px;
+	border-radius:25%;
+	text-align:center;
+	border: 1px solid black;
+}
+.home{
+	height:90%;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.bio{
+	height:90%;
+	width: 80%;
+	font-size:22px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.intro{
+	height:90%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+.cod{
+	color:darkred;
+	font-style:bold;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: underline;
+	
+}
+
+.write{
+	text-align:center;
+	background-image:url('images/TEC.png');
+	background-size:cover;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.write a{
+	color: orangered;
+}
+
+.writ{
+	color:cyan;
+	font-style:bold;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: underline;
+	
+	width: 20%;
+	margin-left:auto;
+	margin-right:auto;
+	opacity:0.8;
+}
+
+.writ1{
+	color:cyan;
+	font-style:bold;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+	
+}
+
+.table{
+	background-color: cyan;
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	opacity:0.7;
+	font-size: 20px;
+	font-weight: normal;
+	color:
+}
+
+.table th{
+	background-color:midnightblue;
+	color: orange;
+	
+}
+
+
+
+.code .table{
+	background-color: black;
+	color: red;
+	margin-left:auto;
+	margin-right:auto;
+	width: 80%;
+	opacity:0.7;
+	font-size: 20px;
+	font-weight: normal;
+	border: 2px solid red;
+}
+
+.table th{
+	background-color:midnightblue;
+	color: orange;
+	
+}
+
+
+
+.cat li{
+	
+	display: inline-block;
+
+	
+}
+
+.cat {
+	
+list-style-type:none;	
+}
+
+
+.head{
+	text-align: center;
+	position:fixed;
+	background-image: url('images/syriaByTheSea.jpeg');
+	background-size:cover;
+	width: 100%;
+	border-bottom: 2px solid black;
+	z-index: +2;
+	
+	color:red;
+	text-shadow:2px 2px black;
+	font-style:bold;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+.head h1{
+	color:red;
+	text-shadow:3px 5px black;
+	font-style:bold;
+	font-family: serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.head a{
+	color: lightblue;
+	
+}
+
+.head a:hover{
+	color: green;
+	text-decoration:underline;
+	font-size: 27px;
+	
+}
+
+
+.navbar-nav {
+   
+   
+}
