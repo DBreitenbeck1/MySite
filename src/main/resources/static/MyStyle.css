@@ -113,6 +113,11 @@ ul.navbar {
 	opacity:0.7;
 	font-size: 22px;
 	font-weight: normal;
+	border: 2px black solid;
+}
+
+.contact td, th, tr{
+	border: 2px black solid;
 }
 
 .pad{
@@ -133,10 +138,40 @@ ul.navbar {
 	margin-left:auto;
 	margin-right:auto;
 	font-size:22px;
-	border-radius:25%;
+	border-radius:5%;
 	text-align:center;
 	border: 1px solid black;
 }
+
+.container2{
+		background-color:midnightblue;
+	color: cyan;
+	opacity:0.7;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid cyan;
+	font-size:18px;
+	border-radius:5%;
+	width: 70%;
+	text-align:center;
+}
+
+.container3{
+	background-color:black;
+	color: red;
+	opacity:0.7;
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+	border-radius:5%;
+	border: 1px solid red;
+	width: 70%;
+	text-align:center;
+	
+}
+
 .home{
 	height:90%;
 	width: 90%;
@@ -223,14 +258,12 @@ ul.navbar {
 }
 
 .table th{
-	background-color:midnightblue;
+	background-color: blue;
 	color: orange;
 	
 }
 
-
-
-.code .table{
+.code .table {
 	background-color: black;
 	color: red;
 	margin-left:auto;
@@ -242,12 +275,11 @@ ul.navbar {
 	border: 2px solid red;
 }
 
-.table th{
-	background-color:midnightblue;
-	color: orange;
+
+.code .table td {
+	border: 2px solid red;
 	
 }
-
 
 
 .cat li{

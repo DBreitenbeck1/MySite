@@ -15,30 +15,28 @@
 
 <div class="pad"></div>
 
+<div class="container"> 
 
-<div class="quote">
+
 <div class="q1">
 <p>${quote }<br>-${src } </p>
 </div>
-</div>
+
 
 <div class="pad2"></div>
 
-<div class="container"> 
 <div class="pad2"></div>
 <p class="intro">Welcome! My name is David Breitenbeck, and I am a Java Developer and  Professional Writer.
  I designed, coded, and built just about everything you see here.
 Take a look around and see some of the things I have to offer. 
 </p>
 
-</div>
+
 
 <div class="pad2"></div>
 
 
 
-
-<div class="container">
 <div class="home">
 	<div class="row">
 		<div class="col-6">
@@ -51,9 +49,9 @@ Take a look around and see some of the things I have to offer.
 		</div>
 	</div>
 
-</div>
 </div> 
 
+</div>
 <div class="pad2"></div>
 
 </body>

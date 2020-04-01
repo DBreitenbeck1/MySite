@@ -17,11 +17,13 @@
 
 <h2 class="writ">My Writing</h2>
 
-<div class="quote2">
+<div class ="container2">
+
+<div class="pad2"></div>
 <div class="q2"> 
 <p>${quote }<br>-${src } </p>
 </div>
-</div>
+
 <div class="pad2"></div>
 
 <h5 class= writ1>Categories</h5>
@@ -53,8 +55,7 @@ ${cat}
 </table>
 
 </div>
+</div>
 
-
-<%@ include file="partials/footer.jsp"%>
 </body>
 </html>

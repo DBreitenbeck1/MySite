@@ -15,15 +15,18 @@
 <div class="pad"></div>
 
 
+<h2 class="cod">My Coding Work</h2>
 
-<div class="quote3">
+<div class="container3">
+
+<div class="pad2"></div>
+
 <div class="q3">
 <p>${quote }<br>-${src } </p>
 </div>
-</div>
+
 <div class="pad2"></div>
 
-<h2 class="cod">My Coding Work</h2>
 
 
 <div>
@@ -44,6 +47,6 @@
 <div class="pad2"></div>
 
 </div>
-
+</div>
 </body>
 </html>

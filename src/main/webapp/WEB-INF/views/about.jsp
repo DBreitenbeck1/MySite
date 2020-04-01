@@ -14,18 +14,22 @@
 
 <div class="pad"></div>
 
+<h2>About Me</h2>
 
-<div class="quote">
+ <div class="container">
+<div class="pad2"></div>
+
 <div class="q1">
 <p>${quote }<br>-${src } </p>
 </div>
-</div>
+
 
 <div class="pad2"></div>
 
-<h2>About Me</h2>
+
  
-  <div class="container">
+<div class="pad2"></div>
+ 
  
   <h3>Personal Bio</h3>
    <div class="bio">
@@ -54,15 +58,15 @@
   </p>
   
    </div>
-  </div>
   
   <div class="pad2"></div>
   <section id="contact">
  
   
   <table class="contact">
-  	<tr><th> <h5>Contact Information</h5></th></tr>
-  	<tr >
+  	<tr><th> </th>
+  	<th><h5>Contact Information</h5></th></tr>
+  	<tr>
   	
   	<td>LinkedIn</td>
   	<td><a class="link" href="http://www.linkedin.com/in/david-breitenbeck-nc">david-breitenbeck-nc </a></td>
@@ -80,5 +84,7 @@
   
 </section>
 <div class="pad2"></div>
+</div>
+
 </body>
 </html>
