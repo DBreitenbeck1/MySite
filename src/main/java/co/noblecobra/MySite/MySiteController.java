@@ -37,7 +37,7 @@ public class MySiteController {
 		List<Quote> quotes = quoteRepo.findAll();
 		int rand = (int)(Math.random()*quotes.size());
 		Quote q= quotes.get(rand);
-		ModelAndView mav= new ModelAndView("home");
+		ModelAndView mav= new ModelAndView("index");
 		mav.addObject("quote", q.getQuote());
 		mav.addObject("src", q.getSource());
 		return mav;
