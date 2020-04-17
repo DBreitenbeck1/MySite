@@ -43,6 +43,13 @@ public class MySiteController {
 		return mav;
 	}
 	
+	
+	@RequestMapping("/drum")
+	public ModelAndView drum() {
+//		ModelAndView mav= new ModelAndView("drum");
+		return new ModelAndView("drum");
+	}
+	
 	@RequestMapping("/writing")
 	public ModelAndView writing() {
 		List<Writing> writings = writingRepo.findAll();
