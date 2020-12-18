@@ -1,36 +1,234 @@
 @charset "UTF-8";
 
-.table th, tr, td{
-	border:solid black 1px;
-	
+
+/* 
+#9f2727 = crimson
+#e0b42e = gold
+#7e36a7 = purple
+ */
+/* ------------------------------- General Start -----*/
+
+body{background-color:#9f2727; background-image:radial-gradient(circle,#e0b42e 10%, #9f2727 50%)}
+
+.container{width:1550px; max-width:100%;margin-left:auto;margin-right:auto;}
+
+
+
+h4{font-size:25px;}
+h3{font-size: 28px;}
+h1{font-size: 52px;}
+.box{font-size:18px;text-align:center;color:#e0b42e;padding:10px;
+background-color:black;margin-bottom: 57px;margin-top:10px;box-shadow: -0 0 17px 20px black;}
+
+.box p{color:lightgray; font-size:18px;}
+
+#blog{border-radius:5%;}
+
+a{color: #e0b42e;}
+
+a:hover{color: #7e36a7; text-decoration:none;}
+
+iframe{border:none;margin-top:15px;margin-bottom:10px;}
+
+p, td{font-family:georgia;}
+
+h1,h2,h3,h4,h5,h6,p{font-family:georgia; color:#e0b42e;}
+
+.table th, tr, td{border:solid black 1px;}
+
+/* ----- General End -----*/
+
+
+/* ---------------------------- Header Start -----*/
+
+.head{text-align: center;background-color: #9f2727;width: 100%;
+border-bottom: 2px solid black;z-index: +2;font-style:bold;
+font-family: serif;font-weight: bold;font-size: 25px;height: 77px;}
+
+.nav-item{margin-bottom:35px}
+
+.header-nav> li > a {color: black;position: relative;bottom: 37px;font-size: 30px;}
+.header-nav> li > a:hover{color:#e0b42e; text-decoration:none!important}
+ul.header-nav li{display:inline; list-style:none;}
+
+a.header-link{display: inline;color: black;}
+.header-nav li{padding-right:30px;}
+
+#logo{width:200px}
+#header-logo{position:relative;top:27px}
+
+
+/* ----- Header End -----*/
+
+
+/* ---------------------------- Footer Start -----*/
+
+footer{background-color: black;margin-top:20px; border-top:  #e0b42e solid 2px; text-align: center;}
+footer>nav>a {color: #e0b42e; font-size: 30px;}
+/* footer>nav>a:hover {color:#9f2727;} */
+
+.footer-nav > li > a{color: #e0b42e;}
+.footer-nav > li > a:hover {color:#7e36a7; text-decoration:none!important;}
+.footer-nav{position: relative;bottom: 57px;}
+ul.footer-nav li{display:inline; list-style:none;}
+a.footer-link{display: inline;}
+#footer-logo{position:relative;top: 42px;}
+footer>nav>#footer-logo>a>footer-link:hover{text-decoration:none!important;}
+
+.footer-nav li{padding-right:30px;font-size: 30px;}
+.footer-nav li:last-of-type{padding-right:0px}
+
+/* ----- Footer End -----*/
+
+
+/*-------------------- Slider Start-----------  */
+
+.slider{background-image: url('images/syriaByTheSea.jpeg');text-align:center;
+color:black;background-size:cover;margin-bottom: 20px;
+border-bottom: 2px solid black;z-index:55;}
+
+.inner-slider{background-image: url('images/syriaByTheSea.jpeg');text-align:center;
+color:black;background-size:cover;margin-bottom: 50px;
+border-bottom: 2px solid black;margin-top: 0px;z-index:55;}
+
+#title{padding-top:78px;font-weight: bold; color: black;}
+#subtitle{font-style: italic; color: black;}
+#byline{padding-top:10px; color: black;}
+
+
+.quote{color: black;border: 1px solid black;opacity:0.7;width: 60%;
+margin-left:auto;margin-right:auto;font-size:12px;border-radius:25%;
+text-align:center;}
+
+.q1{width: 50%;margin-left:auto;margin-right:auto;margin-top: 60px;
+margin-bottom:20px;font-size: 20px; color: black;}
+
+.slider p, .inner-slider p{color: black;}
+
+/*------ Slider End------  */
+
+/* ------------------------- Home Start -----*/
+
+
+
+
+/* ----- Home End -----*/
+
+
+
+/* ------------------------- Inner Start -----*/
+
+.innerpage{color:black;text-align:center}
+
+
+.pageheader {color:black;text-align:center; padding-bottom: 20px;}
+.pagesum {color:black;text-align:center}
+
+
+.sectheader
+
+.category-btn{color:white; background-color: #7e36a7}
+
+
+
+tbody{}
+.table{margin-left:auto;margin-right:auto; margin-top: 50px;
+margin-bottom: 50px; width: 100%;
+font-size: 20px;font-weight: normal;font-size:20px;}
+
+.table th{background-color: black;color: orange;
+font-size:20px;text-align:center}
+.table th a{color: orange;}
+
+.table td{overflow:scroll;font-size:20px;color:lightgray;text-align:center; padding:10px 0;
+border-top: solid 3px #9f2727; }
+.table td a:hover{color: #7e36a7;text-decoration:underline}
+.table td a{color:#9f2727}
+.table tr{box-shadow: -0 0 17px 20px black;background-color:black; }
+/* ----- Inner End -----*/
+
+
+/* ------------------------- Stream Start ---- */
+
+.stringimg{max-width:110px;max-height:150px;}
+
+/* ------------------------- Stream End ---- */
+
+
+
+/* -------------------------- Media Start ------  */
+
+#mediaheader{color:black}
+#medialist li {display: block; float:left; text-align:center; background-color: black;
+box-shadow: -0 0 17px 20px black; width:475px; }
+.row1{margin: 50px 14%;}
+.row2{margin: 50px 0;}
+.row1 p, .row2 p{color:lightgrey; padding:10px 5px;}
+
+/* ----------------- Media End ---------- */
+
+
+/* ------------------ Games Start ------- */
+
+.gamebox p{color:black;}
+.gamebox h2{color:black;}
+
+#gamespage{
+	text-align:center;
+	list-style-type:none;
+	font-size: 22px;
+	color:black;
 }
+
+#gameslist{list-style-type:none; text-align:left; position:relative; margin:51px 0;}
+#gameslist li{color: #9f2727; background-color: black; box-shadow: -0 0 17px 20px black;
+margin: 10px 0;}
+#gameslist a:hover{color:}
+#gameslist li p{color: #9f2727; font-weight: bold}
+.bscon{margin-top:20px}
+
+.bod {padding:10px}
+
+.bombsquad{background-color:white}
+
+.bombsquad p{color:black!important}
+.bombsquad h2, .bombsquad h3{color:black}
+
+.bombsquad button{padding:10px; color:white; margin:10px 0;}
+
+
+.proceed{background-color:red;}
+.proceed:active{background-color:orange;}
+.escape{background-color:green;}
+
+.escape:active{background-color:blue;}
+
+#check{background-color:red;padding: 6px 92px;}
+#check:active{background-color:yellow}
+#bs-header{width:100%; border:2px black solid}
+.bombbod{text-align:center;}
+
+.bomb{position:relative;}
+#countdown{position:absolute;
+top: 167px;
+left: 359px;font-size: 40px; color: crimson!important;}
+
+.question{padding:10px 0; font-size:30px;}
+#win{font-size:35px;}
+/* ------ Games End ------- */
+
 
 ul.navbar {
 	list-style-type: none;
 }
 
-.main{
-	text-align:center;
-	background-image: url('images/syriaByTheSea.jpeg');
-	background-size:cover;
-	font-size:25px;
-	text-shadow:2px 2px lightgrey;
-	font-style:bold;
-	font-family: serif;
-	font-weight: bold;
-}
 
-.main a{
-	color: blue;
-	
-}
 
-.main a:hover{
-	color: green;
-	text-decoration:underline;
-	font-size: 27px;
-	
-}
+/* #mainbody{
+	padding-top:242px;
+} */
+
+
 
 .code{
 	text-align:center;
@@ -39,26 +237,9 @@ ul.navbar {
 	
 }
 
-.quote{
-	background-color:PaleGoldenRod;
-	color: black;
-	border: 1px solid black;
-	opacity:0.7;
-	width: 60%;
-	margin-left:auto;
-	margin-right:auto;
-	font-size:18px;
-	border-radius:25%;
-	width: 60%;
-	text-align:center;
-	
-}
 
-.q1{
-	width: 70%;
-	margin-left:auto;
-	margin-right:auto;
-}
+
+
 
 .quote2{
 	background-color:midnightblue;
@@ -109,7 +290,6 @@ ul.navbar {
 	margin-left:auto;
 	margin-right:auto;
 	width: 40%;
-	background-color:PaleGoldenRod;
 	opacity:0.7;
 	font-size: 22px;
 	font-weight: normal;
@@ -131,17 +311,6 @@ ul.navbar {
 }
 
 
-.container{
-	background-color:PaleGoldenRod;
-	opacity: 0.7;
-	width: 60%;
-	margin-left:auto;
-	margin-right:auto;
-	font-size:22px;
-	border-radius:5%;
-	text-align:center;
-	border: 1px solid black;
-}
 
 .container2{
 		background-color:midnightblue;
@@ -218,50 +387,7 @@ ul.navbar {
 	
 }
 
-.write a{
-	color: orangered;
-}
 
-.writ{
-	color:cyan;
-	font-style:bold;
-	font-family: serif;
-	font-weight: bold;
-	font-size: 35px;
-	text-decoration: underline;
-	
-	width: 20%;
-	margin-left:auto;
-	margin-right:auto;
-	opacity:0.8;
-}
-
-.writ1{
-	color:cyan;
-	font-style:bold;
-	font-family: serif;
-	font-weight: bold;
-	font-size: 25px;
-	text-decoration: underline;
-	
-}
-
-.table{
-	background-color: cyan;
-	margin-left:auto;
-	margin-right:auto;
-	width: 80%;
-	opacity:0.7;
-	font-size: 20px;
-	font-weight: normal;
-	color:
-}
-
-.table th{
-	background-color: blue;
-	color: orange;
-	
-}
 
 .code .table {
 	background-color: black;
@@ -295,47 +421,3 @@ list-style-type:none;
 }
 
 
-.head{
-	text-align: center;
-	position:fixed;
-	background-image: url('images/syriaByTheSea.jpeg');
-	background-size:cover;
-	width: 100%;
-	border-bottom: 2px solid black;
-	z-index: +2;
-	
-	color:red;
-	text-shadow:2px 2px black;
-	font-style:bold;
-	font-family: serif;
-	font-weight: bold;
-	font-size: 25px;
-	
-}
-
-.head h1{
-	color:red;
-	text-shadow:3px 5px black;
-	font-style:bold;
-	font-family: serif;
-	font-weight: bold;
-	font-size: 50px;
-}
-
-.head a{
-	color: lightblue;
-	
-}
-
-.head a:hover{
-	color: green;
-	text-decoration:underline;
-	font-size: 27px;
-	
-}
-
-
-.navbar-nav {
-   
-   
-}

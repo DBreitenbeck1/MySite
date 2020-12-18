@@ -9,4 +9,5 @@ import co.noblecobra.MySite.Entity.Quote;
 public interface QuoteRepository extends JpaRepository<Quote, Long> {
 
 	List<Quote> findBySubjectIgnoreCase(String s);
+	List<Quote> findBySourceIgnoreCase(String s);
 }

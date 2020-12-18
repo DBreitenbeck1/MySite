@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>David Breitenbeck</title>
+<title>Noble Cobra</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
 <link rel ="stylesheet" href ="/MyStyle.css"/>
 
@@ -13,46 +13,57 @@
 <body class="main">
 <%@ include file="partials/header.jsp"%>
 
-<div class="pad"></div>
+<div class="slider">
 
-<div class="container"> 
-
-
-<div class="q1">
-<p>${quote }<br>-${src } </p>
-</div>
+<h1 id="title">Noble Cobra Productions</h1>
+<h3 id="subtitle">Tradition, Imagination, Faith, Adventure</h3>
+<h5 id="byline">The Work and Thoughts of David Breitenbeck</h5>
 
 
-<div class="pad2"></div>
-
-<div class="pad2"></div>
-<p class="intro">Welcome! My name is David Breitenbeck, and I am a Java Developer and  Professional Writer.
- I designed, coded, and built just about everything you see here.
-Take a look around and see some of the things I have to offer. 
-</p>
-
-
-
-<div class="pad2"></div>
-
-
-
-<div class="home">
-	<div class="row">
-		<div class="col-6">
-		<h3><a href="/coding">Coding</a></h3>
-		<p>I am a budding programmer, mostly in Java at the moment, along with Spring MVC, HTML/CSS, Javascript, and SQL.</p>
+		<div class="q1">
+			<p>${quote }<br>-${src } </p>
 		</div>
-		<div class="col-6">
-		<h3><a href="/writing">Writing</a></h3>
-		<p>I am a professional writer in many genres, whether fiction, non-fiction, or (occasionally) poetry.</p>
-		</div>
-	</div>
+	
 
-</div> 
 
-</div>
-<div class="pad2"></div>
+</div><!-- slider  -->
 
-</body>
+<main>
+	<div class="container"> 
+	
+			<div class="row">
+			
+				<div class="box"> 
+				<p class="intro">Welcome! My name is David Breitenbeck, and I am a Java Developer and  Professional Writer.
+				 I designed, coded, and built just about everything you see here.
+				Take a look around and see some of the things I have to offer. 
+				</p>
+			</div>
+			</div>
+			
+	<div class="row">				
+		<div class="col-md-6 box">
+			<h4>Works for Sale</h4>
+			<a href="" >Where you can buy our works</a>
+		</div><!-- col-md-6 -->
+			
+		<div class="col-md-5 offset-1 box" id="blog"> 
+			<h4>Serpent's Den</h4>
+			<a href="https://serpentshouse.com" >My Blog, with my latest news and thoughts</a>
+				<div id="blog-emb">
+					<iframe src="https://serpentshouse.com#content" height="600px" width="100%"></iframe>
+				</div>
+		</div><!-- col-md-6 -->
+	</div><!-- row -->
+	
+	
+			
+</div><!-- container -->
+
+</main>
+
+</body><!-- main -->
+
+
+<%@ include file="partials/footer.jsp"%>
 </html>

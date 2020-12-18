@@ -1,34 +1,50 @@
 <header class="head">
-<h1>David Breitenbeck</h1>
-<h3>Developer and Writer</h3>
+<!-- <h1>Noble Cobra Productions</h1>
 
-<nav class = "nav justify-content-center">
-<div id ="navbarSupportedContent">
- <ul class ="navbar">
 
-<li class="nav-item">
-<a class="nav-link" href="/">Home</a>
+ -->
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<ul class ="header-nav">
+<li >
+<a class="header-link" href="/about">About</a>
 </li>
 
-<li class="nav-item">
-<a class="nav-link" href="/about">About</a>
+<li >
+<a class="header-link" href="/writing">Writing</a>
 </li>
 
-<li class="nav-item">
-<a class="nav-link" href="/writing">Writing</a>
+<li >
+<a class="header-link" href="/stream">Stream</a>
 </li>
 
-<li class="nav-item">
-<a class="nav-link" href="/coding">Coding</a>
+<li id="header-logo">
+<a class="header-link" href="/">
+<img src="images/Logo.png" id="logo">
+</a>
 </li>
 
-<li class="nav-item">
-<a class="nav-link" href="https://serpentshouse.com/">Blog</a>
+<li>
+<a class="header-link" href="/media">Media</a>
+</li>
+
+<li>
+<a class="header-link" href="/games">Games</a>
+</li>
+
+
+<li >
+<a class="header-link" href="https://serpentshouse.com/">Blog</a>
 </li>
 
 </ul>
-</div>
 
-</nav>
+</div>
+<!-- col-md-5 -->
+
+</div><!-- row -->
+
+</div><!-- container -->
 
 </header>

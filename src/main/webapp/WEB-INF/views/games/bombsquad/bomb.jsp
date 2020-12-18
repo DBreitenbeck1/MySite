@@ -1,36 +1,69 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bomb Squad</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel ="stylesheet" href ="/MyStyle.css"/>
+
+</head>
+<body class="bombsquad" onload="myTimer = setInterval(CD, 1000), rand(), hide()">
 
 
-function myFun() {
-	document.getElementById("test").innerHTML = "This worked.";
-	}
+<div class="container bscon">
+<div class="row">
 
-function drum(){
+<div class="col-md-6 offset-3">
+
+
+	<div class="bombbod">
+
+
+		<div class="question">
+			<p id="q"></p>
+		</div>
+
+<p id="ex"></p>
+		<input type="text" id="answer"> <br>
+		<button id="check" onClick="check()">Try</button>
+
+
+		<div>
+			<p id="win"></p>
+		</div>
+
+		<div id="again">
+			<form action="/bombsquad/bomb">
+			<p>Go Again?</p>
+				<input type="hidden" value="${time }" name="time"> <input
+					type="hidden" value="${ques}" name="ques"> <input
+					type="hidden" value="${exTime}" name="exTime"> <input
+					type="hidden" value="${dif}" name="dif">
+				<button class="proceed" type="submit">Yes</button>	
+			</form>
+			<button class="escape" onclick="window.location.href='/games';">No</button>
+		</div> 
+
+<div class="bomb">
+	<p id="countdown"></p>
+	<img src="/images/bomb.jpg" id="bombphoto"/>
+<!--  	<img src="images/bomb.jpg" alt="bomb" id="bombphoto"/>-->
 	
-	function playSound(e){
-		let a = e.keyCode;
-		const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-		const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+</div>
+	</div>
 
-		if(!audio) return;
-		audio.currentTime=0;
-		audio.play();
-		
-		
-		key.classList.add('playing');
-		};
-		
-	function removeTransition(e){
-			if(e.propertyName != 'transform')return;
+</div><!-- col-md-6 -->
 
-			this.classList.remove('playing');
-		}
-	const keys =document.querySelectorAll('.key');
-	keys.forEach(key=> key.addEventListener('transitionend', removeTransition));
-	window.addEventListener('keydown', playSound);
-	
-}
+</div>
+<!-- row -->
 
+</div>
+<!-- container -->
 
+	<script>
 var c = ${time};
 var num1;
 var num2;
@@ -132,6 +165,9 @@ function sub(){
 
 function expl(){
 	document.getElementById("ex").innerHTML="BOOM!";
+	document.getElementById("again").style.display="inline";
+	document.getElementById("answer").disabled=true;
+	
 }
 
 function check(){
@@ -164,7 +200,7 @@ function check(){
 	        var keyCode = evt ? (evt.which ? evt.which : evt.keyCode) : event.keyCode;
 	        if(keyCode == 13)
 	        {
-	        	document.getElementById("btn").click();
+	        	document.getElementById("check").click();
 	        }
 	 	}
 	 
@@ -173,3 +209,13 @@ function check(){
 			document.getElementById("win").innerHTML="";
 			
 	 }
+
+</script>
+
+
+
+
+</body>
+
+
+</html>

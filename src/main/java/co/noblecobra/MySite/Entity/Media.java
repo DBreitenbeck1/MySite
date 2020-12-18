@@ -1,43 +1,22 @@
 package co.noblecobra.MySite.Entity;
 
-import java.text.ParseException;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Writing {
+public class Media {
+
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
 	private String title;
-	private String category;
-	private String summary;
+	private String source;
 	private String link;
-	
-	public Writing() {
-		
-	}
+	private String summary;
 	
 	
-	
-	public String getCategory() {
-		return category;
-	}
-
-
-
-	public void setCategory(String category) {
-		this.category = category;
-	}
-
-
-
 	public Long getId() {
 		return id;
 	}
@@ -50,33 +29,30 @@ public class Writing {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-
-
-	public String getSummary() {
-		return summary;
-	}
-
-
-	public void setSummary(String summary) {
-		this.summary = summary;
-	}
-
-
 	public String getLink() {
 		return link;
 	}
-
-
 	public void setLink(String link) {
 		this.link = link;
 	}
-
-
+	public String getSummary() {
+		return summary;
+	}
+	public void setSummary(String summary) {
+		this.summary = summary;
+	}
+	public String getSource() {
+		return source;
+	}
+	public void setSource(String source) {
+		this.source = source;
+	}
 	@Override
 	public String toString() {
-		return "Writing [id=" + id + ", title=" + title + ", summary=" + summary + ", link=" + link + "]";
+		return "Media [id=" + id + ", title=" + title + ", source=" + source + ", link=" + link + ", summary=" + summary
+				+ "]";
 	}
-
+	
 	
 	
 }
