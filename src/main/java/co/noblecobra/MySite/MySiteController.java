@@ -75,8 +75,6 @@ public class MySiteController {
 		List<Work> works = workRepo.findAll();
 		List<Quote> quotes = quoteRepo.findAll();
 		
-		if()
-		
 		Quote q= rand.randList(quotes);
 		ModelAndView mav= new ModelAndView("stream");
 		Set<String> medium = workDao.mediums();
