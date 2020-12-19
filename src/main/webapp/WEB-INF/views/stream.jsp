@@ -21,7 +21,7 @@
 <div class="row">
 <div class="col-md-12 box">
 <h4>What is the Stream?</h4>
-<p></p>
+<p>The Stream is the course of culture</p>
 </div>
 </div>
 
